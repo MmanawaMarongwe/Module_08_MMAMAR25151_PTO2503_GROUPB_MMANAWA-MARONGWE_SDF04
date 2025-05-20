@@ -14,7 +14,7 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin-left: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 }
 
 .menu-header{
@@ -50,6 +50,8 @@ footer {
     border: none;
 }
 
-
+.divider{
+    border-top: 1px solid #d56139;
+}
 
 
