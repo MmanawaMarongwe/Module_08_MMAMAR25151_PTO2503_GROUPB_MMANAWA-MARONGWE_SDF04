@@ -1,6 +1,7 @@
 footer {
+    color: #363b3f;
     background-color: #659f8f;
-    padding: 75px;
+    padding: 50px;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -15,6 +16,11 @@ footer {
   margin-left: 100px;
   margin-bottom: 50px;
 }
+
+.menu-header{
+    font-weight: bold;
+}
+
 .sign-up-form{
     padding: 10px;
 }
@@ -26,7 +32,23 @@ footer {
 .technologies{
     padding: 10px;
 }
-/*#d56139*/
+
+.email-textbox{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: grey;
+}
+
+.subscribe-button{
+    color: white;
+    font-weight: bold;
+    background-color: #d56139; 
+    padding: 11px 20px;
+    margin-left: 10px;
+    border-radius: 5px;    
+    border: none;
+}
 
 
 
