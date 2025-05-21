@@ -1,5 +1,6 @@
 footer {
     color: #363b3f;
+    font-size: 12px;
     background-color: #659f8f;
     padding: 50px;
     font-family: "Open Sans", sans-serif;
@@ -54,4 +55,8 @@ footer {
     border-top: 1px solid #d56139;
 }
 
+.logo-wrapper{
+    width: 150px;
+    padding: 40px;
+}
 
