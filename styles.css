@@ -4,13 +4,10 @@ footer {
     background-color: #659f8f;
     padding: 50px;
     font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
 }
 
-.container{
-    max-width: 1200px;
-}
-
-.grid {
+.footer-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -39,6 +36,7 @@ footer {
     border-radius: 5px;
     border: none;
     color: grey;
+    text-align: left;
 }
 
 .subscribe-button{
@@ -60,3 +58,70 @@ footer {
     padding: 40px;
 }
 
+@media (max-width: 1024px){ 
+    
+    .footer-grid{
+        margin-left: 0;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 0;
+    }
+    .sign-up-form {
+        margin-left: 35px;
+        grid-column: 1 / -1; /* full width for this column*/
+  }
+
+  .quick-links,
+  .technologies {
+        grid-column: auto; /* side by side */
+  }
+    
+}
+
+
+@media (max-width: 767px) {
+  .footer-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .sign-up-form,
+  .quick-links,
+  .technologies {
+    margin-left: 0;
+    width: 100%;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .quick-links ul,
+  .technologies ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .sign-up-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .email-textbox {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .subscribe-button {
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+  }
+  .logo-wrapper{
+    width: 150px;
+    padding: 10px;
+}
+}
