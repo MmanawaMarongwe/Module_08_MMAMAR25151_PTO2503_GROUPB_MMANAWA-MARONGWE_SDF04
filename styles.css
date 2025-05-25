@@ -15,6 +15,15 @@ footer {
   margin-bottom: 15px;
 }
 
+a{
+    text-decoration: none;
+    color: #363b3f;
+}
+
+li{
+    list-style: none;
+}
+
 .menu-header{
     font-weight: bold;
 }
@@ -26,6 +35,17 @@ footer {
 .quick-links{
     padding: 10px;
 }
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.quick-links li {
+    margin-bottom: 8px;
+}
+
 
 .technologies{
     padding: 10px;
@@ -75,6 +95,9 @@ footer {
   .technologies {
         grid-column: auto; /* side by side */
   }
+  .quick-links{
+    margin-left: 40px;
+}
     
 }
 
@@ -83,7 +106,7 @@ footer {
   .footer-grid {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 5px;
     align-items: flex-start;
   }
 
@@ -99,7 +122,7 @@ footer {
   .quick-links ul,
   .technologies ul {
     padding: 0;
-    margin: 0;
+    margin-bottom: 5px;
     list-style: none;
   }
 
